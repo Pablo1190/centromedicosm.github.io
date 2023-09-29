@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywors" content="centro medico, salud, medicina, clinica, santa fe">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <title>Centro Médico SM</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- --------------- HEADER --------------- -->
+        <nav id="header">
+            <div class="navbar-logo">
+                <img src="/Imagenes/SM.png" alt="">
+            </div>
+
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Principal</a>
+                        <div class="circle"></div>
+                    </li>
+
+                    <li class="nav_list">
+                        <a href="#profesionales" class="nav-link">Profesionales</a>
+                        <div class="circle"></div>
+                    </li>
+                    
+                    <li class="nav_list">
+                        <a href="#contacto" class="nav-link">Contacto</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+
+        <!---------------- MAIN ------------------>
+        <main class="wrapper">
+
+            <!---------------- Box de presentacion ------------------>
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    
+                    <div class="featured-name">
+                        <p>Nuestra historia<span class="typedText"></span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>Centro Médico SM es un establecimiento ubicado en la zona norte de la ciudad de Santa Fe, que cuenta con más de 40 años de antiguedad, por lo cual ha sido testigo de generaciones y avances médicos, convirtiéndose en un referente pionero en la zona.</p>
+                        <br>
+                        <p>Con un staff de más de 30 profesionales altamente capacitados y especializados en diversas ramas de la medicina y muchas otras disciplinas, ofrece una amplia gama de servicios, dedicada a brindar una atención integral y de calidad a sus pacientes.</p>
+                        <br>
+                         <p>En Centro Médico SM cada visita se trata como una oportunidad para construir una relación sólida y duradera con el paciente, centrándose en su bienestar y su recuperación.</p>
+                        </p>
+                    </div>
+
+                </div>
+                
+                    <div class="featured-image">
+                        <div class="image">
+                            <div class="carrusel">
+                                <div class="slide">
+                                  <img src="/Imagenes/Slider1.jpeg" alt="Imagen 1">
+                                </div>
+                                <div class="slide">
+                                  <img src="/Imagenes/Slider2.jpeg" alt="Imagen 2">
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                
+                
+
+            </section>
+
+            <!-- -------------- PROFESIONALES ---------------- -->
+
+            <section class="section" id="profesionales">
+                <div class="top-header">
+                    <h1>Profesionales y Especialistas.</h1>
+                </div>
+                
+                <div class="profesionales">
+
+                    <section class="container">
+                    <div class="accordion">
+                        <div class="accordion-item">
+                          <button id="accordion-button-1" aria-expanded="false">
+                            <span class="accordion-title">Cardiología</span>
+                            <span class="icon" aria-hidden="true"></span>
+                          </button>
+                          <div class="accordion-content">
+                            <p>Dr. Beltrame, Marcelo</p>
+                            <p>Dr. Croce, Daniel</p>
+                            <p>Dr. Ropolo, José Ignacio</p>
+                          </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion">
+                      <div class="accordion-item">
+                        <button id="accordion-button-1" aria-expanded="false">
+                          <span class="accordion-title">Cirugía General</span>
+                          <span class="icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="accordion-content">
+                          <p>Dr. Giudice, Diego</p>
+                          <p>Dr. Martí, Fabián</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="accordion">
+                      <div class="accordion-item">
+                        <button id="accordion-button-1" aria-expanded="false">
+                          <span class="accordion-title">Cirugía Vascular</span>
+                          <span class="icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="accordion-content">
+                          <p>Dr. Masino, Martín</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="accordion">
+                      <div class="accordion-item">
+                        <button id="accordion-button-1" aria-expanded="false">
+                          <span class="accordion-title">Clinica Medica</span>
+                          <span class="icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="accordion-content">
+                          <p>Dr. Seldes, Ricardo</p>
+                          <p>Dra. Montamat, Cristina</p>
+                          <p>Dra. Ovando, Anahí</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="accordion">
+                      <div class="accordion-item">
+                        <button id="accordion-button-1" aria-expanded="false">
+                          <span class="accordion-title">Endocrinología</span>
+                          <span class="icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="accordion-content">
+                          <p>Dra. Seldes, Carolina</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="accordion">
+                      <div class="accordion-item">
+                        <button id="accordion-button-1" aria-expanded="false">
+                          <span class="accordion-title">Estudios</span>
+                          <span class="icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="accordion-content">
+                          <p>Ecografías</p>
+                          <p>Ergometría y Doppler</p>
+                          <p>Radiografías</p>
+                          <p>Audiometrías</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="accordion">
+                      <div class="accordion-item">
+                        <button id="accordion-button-1" aria-expanded="false">
+                          <span class="accordion-title">Ginecología</span>
+                          <span class="icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="accordion-content">
+                          <p>Dra. Gon, Carina</p>
+                          <p>Dr. Ingaramo, Fernando</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="accordion">
+                      <div class="accordion-item">
+                        <button id="accordion-button-1" aria-expanded="false">
+                          <span class="accordion-title">Laboratorio</span>
+                          <span class="icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="accordion-content">
+                          <p>Dra. Rico, Marina</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="accordion">
+                      <div class="accordion-item">
+                        <button id="accordion-button-1" aria-expanded="false">
+                          <span class="accordion-title">Medica Generalista</span>
+                          <span class="icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="accordion-content">
+                          <p>Dra. Bravo, Ma. de los Angeles</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="accordion">
+                      <div class="accordion-item">
+                        <button id="accordion-button-1" aria-expanded="false">
+                          <span class="accordion-title">Nefrología</span>
+                          <span class="icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="accordion-content">
+                          <p>Dra. Eberle, Sol</p>
+                        </div>
+                      </div>
+                    </div>
+                    </section>
+                    
+                    
+                    <section class="container">
+                        
+                    <div class="accordion">
+                      <div class="accordion-item">
+                        <button id="accordion-button-1" aria-expanded="false">
+                          <span class="accordion-title">Neurología</span>
+                          <span class="icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="accordion-content">
+                          <p>Dra. Bustos, Ivana</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="accordion">
+                      <div class="accordion-item">
+                        <button id="accordion-button-1" aria-expanded="false">
+                          <span class="accordion-title">Nutrición</span>
+                          <span class="icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="accordion-content">
+                          <p>Lic. Perezlindo, Melisa</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="accordion">
+                      <div class="accordion-item">
+                        <button id="accordion-button-1" aria-expanded="false">
+                          <span class="accordion-title">Oftalmología</span>
+                          <span class="icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="accordion-content">
+                          <p>Dra. Cristofoli, Milagros</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="accordion">
+                      <div class="accordion-item">
+                        <button id="accordion-button-1" aria-expanded="false">
+                          <span class="accordion-title">Otorrinolaringología</span>
+                          <span class="icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="accordion-content">
+                          <p>Dr. Carballada, Adrian</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="accordion">
+                      <div class="accordion-item">
+                        <button id="accordion-button-1" aria-expanded="false">
+                          <span class="accordion-title">Pediatría</span>
+                          <span class="icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="accordion-content">
+                          <p>Dr. González, Damian</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="accordion">
+                      <div class="accordion-item">
+                        <button id="accordion-button-1" aria-expanded="false">
+                          <span class="accordion-title">Podología</span>
+                          <span class="icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="accordion-content">
+                          <p>Lic. Perez, Carolina</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="accordion">
+                      <div class="accordion-item">
+                        <button id="accordion-button-1" aria-expanded="false">
+                          <span class="accordion-title">Psicología</span>
+                          <span class="icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="accordion-content">
+                          <p>Lic. Seldes, Estefania</p>
+                          <p>Lic. Sgarbossa, Agustina</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="accordion">
+                      <div class="accordion-item">
+                        <button id="accordion-button-1" aria-expanded="false">
+                          <span class="accordion-title">Psiquiatría</span>
+                          <span class="icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="accordion-content">
+                          <p>Dra. Piccichini, Luciana</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="accordion">
+                      <div class="accordion-item">
+                        <button id="accordion-button-1" aria-expanded="false">
+                          <span class="accordion-title">Traumatología</span>
+                          <span class="icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="accordion-content">
+                          <p>Dr. Seldes, Juan</p>
+                          <p>Dr. Bustamante, Hernán</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="accordion">
+                      <div class="accordion-item">
+                        <button id="accordion-button-1" aria-expanded="false">
+                          <span class="accordion-title">Urología</span>
+                          <span class="icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="accordion-content">
+                          <p>Dra. Batlle Casas, Victoria</p>
+                        </div>
+                      </div>
+                    </div>
+                    </section>
+                    
+                    </div>
+
+            </section>
+
+            <!---------------- CONTACTO ------------------>
+
+            <section class="section" id="contacto">
+                <div class="top-header">
+                    <h1>Ubicación y medios de contacto.</h1>
+                </div>
+                <div class="row2">
+                    <div >
+                      <section class="ubicacion">
+
+                        <div>
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3399.1426845200253!2d-60.729909325540675!3d-31.575134874188905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b50653873ccbe3%3A0x232191e133d87620!2sCogorno%205559%2C%203000%20Santa%20Fe%20de%20la%20Vera%20Cruz%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1688503085696!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    
+                      <div class="medios">
+                          <div class="telefono"> 
+                            <img class="logos" src="/Imagenes/LogoWa.png" alt="whatsapp cm">
+                            <a href="http:///api.whatsapp.com/send?phone=5493424634230" target="_blank">Centro Médico: 0342-154634230</a>
+                          </div>
+                    
+                          <div class="telefono">
+                            <img class="logos" src="/Imagenes/LogoWa.png" alt="whatsapp lab">
+                            <a href="http:///api.whatsapp.com/send?phone=5493425251956" target="_blank">Laboratorio: 0342-155251956</a>
+                          </div>
+                    
+                          <div class="telefono">
+                            <img class="logos" src="/Imagenes/LogoTel.png" alt="tel fijo">
+                            <a href="tel:+5494891184">Teléfono Fijo: 4891184</a>
+                          </div>
+                    
+                          <div class="telefono">
+                            <img class="logos" src="/Imagenes/LogoInsta.png" alt="insta">
+                            <a href="https://www.instagram.com/smcentromedico/" target="_blank">Instagram.</a>
+                          </div>
+                    
+                          <div class="telefono">
+                            <img class="logos" src="/Imagenes/LogoFace.png" alt="face">
+                            <a href="https://www.facebook.com/CenmedSyM" target="_blank">Facebook.</a>
+                          </div>
+                        </div>
+                    </section>
+                    </div> 
+                    
+                  
+                </div>
+            </section>
+
+        </main>
+
+
+        <!-- --------------- FOOTER --------------- -->
+        <footer>
+            
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Principal</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#profesionales">Profesionales</a>
+                    </li>
+                    
+                    <li class="footer_menu_list">
+                        <a href="#contacto">Contactos</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href= mailto:pf1190@gmail.com style="text-decoration: none;">Pablo Fernández</a> - Todos los derechos reservados.
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+
+
+
+  
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./script2.js"></script>
+    <script src="./scri_prof.js"></script>
+</body>
+
+</html>
