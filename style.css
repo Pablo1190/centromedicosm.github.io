@@ -450,7 +450,7 @@ footer{
     }
 }
 
-/* ----- 960px / RESPONSIVE ----- */
+/* ----- 900px / RESPONSIVE ----- */
 @media only screen and (max-width: 960px) {
     .nav-button{
         display: none;
@@ -532,22 +532,30 @@ footer{
 
 }
 
-/* ----- 720 px / RESPONSIVE ----- */
+/* ----- 480 px / RESPONSIVE ----- */
 
-@media only screen and (max-width: 720px){
+@media only screen and (max-width: 480px){
     .featured-name{
-        font-size: 40px;
+        font-size: 30px;
     }
+
     .featured-box{
         margin-top: -200px;
         margin-bottom: -150px;
+        height: 130vh;
     }
+
     .image, .image img{
         display: none;
     }
+
     .ubicacion{
         display: flex;
         justify-content: center;
         flex-direction: column;
+    }
+
+    .profesionales{
+        gap: 10px;
     }
 }
